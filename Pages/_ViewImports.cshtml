@@ -1,0 +1,9 @@
+@using Microsoft.AspNetCore.Identity
+@using WebAppWithAuthentication
+@using WebAppWithAuthentication.Data
+@using WebAppWithAuthentication.Models;
+@namespace WebAppWithAuthentication.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebAppWithAuthentication.Authorization;
+@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
