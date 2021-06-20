@@ -1,11 +1,11 @@
 ﻿
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 
-namespace WebAppWithAuthentication.Authorization
+namespace WebAppWithAuthenticationEFCJet.Authorization
 {
     public class ContactIsOwnerAuthorizationHandler
                 : AuthorizationHandler<OperationAuthorizationRequirement, Contact>

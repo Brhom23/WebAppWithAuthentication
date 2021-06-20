@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Identity;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Authorization
+namespace WebAppWithAuthenticationEFCJet.Authorization
 {
     public class ContactManagerAuthorizationHandler :
         AuthorizationHandler<OperationAuthorizationRequirement, Contact>

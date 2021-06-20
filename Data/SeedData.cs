@@ -5,10 +5,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Data
+namespace WebAppWithAuthenticationEFCJet.Data
 {
     public class SeedData
     {

@@ -12,11 +12,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication
+namespace WebAppWithAuthenticationEFCJet
 {
     public class Startup
     {

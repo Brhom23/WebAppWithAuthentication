@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAppWithAuthentication.Models
+namespace WebAppWithAuthenticationEFCJet.Models
 {
     public class Contact
     {

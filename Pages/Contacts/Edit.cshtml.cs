@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Pages.Contacts
+namespace WebAppWithAuthenticationEFCJet.Pages.Contacts
 {
     public class EditModel : DI_BasePageModel
     {
@@ -100,9 +100,9 @@ namespace WebAppWithAuthentication.Pages.Contacts
     }
     //public class EditModel : PageModel
     //{
-    //    private readonly WebAppWithAuthentication.Data.ApplicationDbContext _context;
+    //    private readonly WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext _context;
 
-    //    public EditModel(WebAppWithAuthentication.Data.ApplicationDbContext context)
+    //    public EditModel(WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext context)
     //    {
     //        _context = context;
     //    }

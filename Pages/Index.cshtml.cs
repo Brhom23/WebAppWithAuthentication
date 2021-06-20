@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAppWithAuthentication.Pages
+namespace WebAppWithAuthenticationEFCJet.Pages
 {
     [AllowAnonymous]
     public class IndexModel : PageModel

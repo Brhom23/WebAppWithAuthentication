@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebAppWithAuthentication.Data;
+using WebAppWithAuthenticationEFCJet.Data;
 
-namespace WebAppWithAuthentication.Data.Migrations
+namespace WebAppWithAuthenticationEFCJet.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20210614134259_AppUser")]
@@ -156,7 +156,7 @@ namespace WebAppWithAuthentication.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("WebAppWithAuthentication.Models.AppUser", b =>
+            modelBuilder.Entity("WebAppWithAuthenticationEFCJet.Models.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -238,7 +238,7 @@ namespace WebAppWithAuthentication.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("WebAppWithAuthentication.Models.AppUser", null)
+                    b.HasOne("WebAppWithAuthenticationEFCJet.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -247,7 +247,7 @@ namespace WebAppWithAuthentication.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("WebAppWithAuthentication.Models.AppUser", null)
+                    b.HasOne("WebAppWithAuthenticationEFCJet.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -262,7 +262,7 @@ namespace WebAppWithAuthentication.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebAppWithAuthentication.Models.AppUser", null)
+                    b.HasOne("WebAppWithAuthenticationEFCJet.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -271,7 +271,7 @@ namespace WebAppWithAuthentication.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("WebAppWithAuthentication.Models.AppUser", null)
+                    b.HasOne("WebAppWithAuthenticationEFCJet.Models.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

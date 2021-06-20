@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebAppWithAuthentication.Data.Migrations
+namespace WebAppWithAuthenticationEFCJet.Data.Migrations
 {
     public partial class Contacts2 : Migration
     {

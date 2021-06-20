@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Data
+namespace WebAppWithAuthenticationEFCJet.Data
 {
     public class ApplicationDbContext : IdentityDbContext<AppUser> //IdentityDbContext
     {

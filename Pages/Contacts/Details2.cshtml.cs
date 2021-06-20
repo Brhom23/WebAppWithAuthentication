@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Pages.Contacts
+namespace WebAppWithAuthenticationEFCJet.Pages.Contacts
 {
 
     [AllowAnonymous]

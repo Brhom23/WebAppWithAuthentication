@@ -8,9 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAppWithAuthentication.Data;
+using WebAppWithAuthenticationEFCJet.Data;
 
-namespace WebAppWithAuthentication
+namespace WebAppWithAuthenticationEFCJet
 {
     public class Program
     {

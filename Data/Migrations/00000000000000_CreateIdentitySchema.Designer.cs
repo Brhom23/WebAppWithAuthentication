@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using WebAppWithAuthentication.Data;
+using WebAppWithAuthenticationEFCJet.Data;
 
-namespace WebAppWithAuthentication.Data.Migrations
+namespace WebAppWithAuthenticationEFCJet.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("00000000000000_CreateIdentitySchema")]

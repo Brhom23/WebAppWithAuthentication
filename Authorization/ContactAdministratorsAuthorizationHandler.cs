@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Authorization
+namespace WebAppWithAuthenticationEFCJet.Authorization
 {
     public class ContactAdministratorsAuthorizationHandler
                     : AuthorizationHandler<OperationAuthorizationRequirement, Contact>

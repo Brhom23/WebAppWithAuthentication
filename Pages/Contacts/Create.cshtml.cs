@@ -7,17 +7,17 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Pages.Contacts
+namespace WebAppWithAuthenticationEFCJet.Pages.Contacts
 {
     public class CreateModel : DI_BasePageModel //PageModel
     {
-        private readonly WebAppWithAuthentication.Data.ApplicationDbContext _context;
+        private readonly WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext _context;
 
-        //public CreateModel(WebAppWithAuthentication.Data.ApplicationDbContext context)
+        //public CreateModel(WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext context)
         //{
         //    _context = context;
         //}

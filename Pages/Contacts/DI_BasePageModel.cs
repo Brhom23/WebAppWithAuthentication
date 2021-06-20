@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Pages.Contacts
+namespace WebAppWithAuthenticationEFCJet.Pages.Contacts
 {
     public class DI_BasePageModel : PageModel
     {

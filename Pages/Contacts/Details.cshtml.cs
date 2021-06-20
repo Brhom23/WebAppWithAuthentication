@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using WebAppWithAuthentication.Authorization;
-using WebAppWithAuthentication.Data;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Authorization;
+using WebAppWithAuthenticationEFCJet.Data;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Pages.Contacts
+namespace WebAppWithAuthenticationEFCJet.Pages.Contacts
 {
     [AllowAnonymous]
     public class DetailsModel : DI_BasePageModel
@@ -84,9 +84,9 @@ namespace WebAppWithAuthentication.Pages.Contacts
     }
     //public class DetailsModel : PageModel
     //{
-    //    private readonly WebAppWithAuthentication.Data.ApplicationDbContext _context;
+    //    private readonly WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext _context;
 
-    //    public DetailsModel(WebAppWithAuthentication.Data.ApplicationDbContext context)
+    //    public DetailsModel(WebAppWithAuthenticationEFCJet.Data.ApplicationDbContext context)
     //    {
     //        _context = context;
     //    }

@@ -10,9 +10,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using WebAppWithAuthentication.Models;
+using WebAppWithAuthenticationEFCJet.Models;
 
-namespace WebAppWithAuthentication.Areas.Identity.Pages.Account.Manage
+namespace WebAppWithAuthenticationEFCJet.Areas.Identity.Pages.Account.Manage
 {
     public partial class EmailModel : PageModel
     {
